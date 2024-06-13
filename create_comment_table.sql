@@ -1,0 +1,10 @@
+CREATE TABLE comment (
+    id SERIAL PRIMARY KEY,
+    userName VARCHAR NOT NULL,
+    text VARCHAR NOT NULL,
+    createdAt TIMESTAMP WITHOUT TIME ZONE NOT NULL,
+    parentId INTEGER NULL,
+    email VARCHAR NOT NULL,
+    filePath VARCHAR NULL,
+    homePage VARCHAR NULL
+);
