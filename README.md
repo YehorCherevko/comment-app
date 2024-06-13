@@ -71,11 +71,11 @@ UPLOAD_DIR=./uploads
 
 npm run typeorm migration:run
 
-Running the Application
-
 5. In order to build and run docker containers use command:
 
 docker-compose up --build
+
+Running the Application
 
 1. Start the NestJS application:
 
